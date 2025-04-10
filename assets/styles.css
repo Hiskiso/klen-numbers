@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@font-face {
+  font-family: DaysOne;
+  src: url("./DaysOne-Regular.ttf");
+}
+
+.numbersWrapepr {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.numImg {
+  width: 100%;
+  display: block;
+}
+
+.number {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+
+  border: 1px solid #d9d9d9;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.numberDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 27px;
+  border: 1px solid #00000040;
+}
+
+.descriptionRowText {
+  font-weight: 300;
+}
+
+.descriptionRow.header {
+  font-family: DaysOne;
+  font-weight: unset;
+  padding: 20px 27px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.descriptionRow.buttonRow {
+  padding: unset;
+}
+
+.bookingButton {
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  height: 100%;
+  padding: 14px 27px;
+  border: unset;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #689059;
+  color: #fff;
+  border: 1px solid #689059;
+  cursor: pointer;
+}
+
+.descriptionRow.header:hover {
+  background: #c2c2c2;
+}
+
+.arrowLink {
+  display: flex;
+}
+
+.bookingButton:hover {
+  background: #83b670;
+}
+
+.glide__arrow {
+  border: unset;
+  background: unset;
+  border: 3px solid #ffffff40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 12px; */
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.glide__arrows {
+  position: absolute;
+  display: flex;
+  display: flex;
+  bottom: 25px;
+  right: 25px;
+  gap: 15px;
+}
