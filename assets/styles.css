@@ -12,6 +12,7 @@
 
 .numImg {
   width: 100%;
+  border-radius: 13px 13px 0 0;
   display: block;
 }
 
@@ -19,7 +20,7 @@
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 14px;
-
+border-radius: 13px;
   border: 1px solid #d9d9d9;
   max-width: 400px;
   display: flex;
@@ -49,18 +50,24 @@
   padding: 20px 27px;
   font-size: 20px;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .descriptionRow.buttonRow {
   padding: unset;
+  
+  border-radius: 0 0 13px 13px;
 }
 
 .bookingButton {
+  text-decoration: none;
+  border-radius: 0 0 13px 13px;
   font-size: 16px;
   font-family: "Mulish", sans-serif;
   font-weight: 800;
   height: 100%;
-  padding: 14px 27px;
+  padding: 8px 27px;
   border: unset;
   display: flex;
   width: 100%;
