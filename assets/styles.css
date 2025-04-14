@@ -12,6 +12,9 @@
 
 .numImg {
   width: 100%;
+  height: 265px;
+  
+  object-fit: cover;
   border-radius: 13px 13px 0 0;
   display: block;
 }
@@ -112,4 +115,10 @@ border-radius: 13px;
   bottom: 25px;
   right: 25px;
   gap: 15px;
+}
+
+@media (max-width: 1000px) {
+  .numbersWrapepr{
+    justify-content: center;
+  }
 }
